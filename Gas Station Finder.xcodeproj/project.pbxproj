@@ -23,6 +23,9 @@
 		D049E30C1A3F882600E0CAC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D049E2E81A3F882600E0CAC1 /* UIKit.framework */; };
 		D049E3141A3F882600E0CAC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D049E3121A3F882600E0CAC1 /* InfoPlist.strings */; };
 		D049E3161A3F882600E0CAC1 /* Gas_Station_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D049E3151A3F882600E0CAC1 /* Gas_Station_FinderTests.m */; };
+		D049E3201A3FC6C400E0CAC1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D049E31F1A3FC6C400E0CAC1 /* MapKit.framework */; };
+		D0A0A3881A406FC300D784E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A0A3871A406FC300D784E8 /* CoreLocation.framework */; };
+		D0A3F26D1A416F5400FC2F04 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A3F26C1A416F5400FC2F04 /* MapPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,10 @@
 		D049E3111A3F882600E0CAC1 /* Gas Station FinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gas Station FinderTests-Info.plist"; sourceTree = "<group>"; };
 		D049E3131A3F882600E0CAC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D049E3151A3F882600E0CAC1 /* Gas_Station_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gas_Station_FinderTests.m; sourceTree = "<group>"; };
+		D049E31F1A3FC6C400E0CAC1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D0A0A3871A406FC300D784E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D0A3F26B1A416F5400FC2F04 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		D0A3F26C1A416F5400FC2F04 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A0A3881A406FC300D784E8 /* CoreLocation.framework in Frameworks */,
+				D049E3201A3FC6C400E0CAC1 /* MapKit.framework in Frameworks */,
 				D049E2E71A3F882600E0CAC1 /* CoreGraphics.framework in Frameworks */,
 				D049E2E91A3F882600E0CAC1 /* UIKit.framework in Frameworks */,
 				D049E2E51A3F882600E0CAC1 /* Foundation.framework in Frameworks */,
@@ -106,6 +115,8 @@
 		D049E2E31A3F882600E0CAC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0A0A3871A406FC300D784E8 /* CoreLocation.framework */,
+				D049E31F1A3FC6C400E0CAC1 /* MapKit.framework */,
 				D049E2E41A3F882600E0CAC1 /* Foundation.framework */,
 				D049E2E61A3F882600E0CAC1 /* CoreGraphics.framework */,
 				D049E2E81A3F882600E0CAC1 /* UIKit.framework */,
@@ -125,6 +136,8 @@
 				D049E2FD1A3F882600E0CAC1 /* FirstViewController.m */,
 				D049E2FF1A3F882600E0CAC1 /* SecondViewController.h */,
 				D049E3001A3F882600E0CAC1 /* SecondViewController.m */,
+				D0A3F26B1A416F5400FC2F04 /* MapPoint.h */,
+				D0A3F26C1A416F5400FC2F04 /* MapPoint.m */,
 				D049E3021A3F882600E0CAC1 /* Images.xcassets */,
 				D049E2EB1A3F882600E0CAC1 /* Supporting Files */,
 			);
@@ -262,6 +275,7 @@
 				D049E2F51A3F882600E0CAC1 /* AppDelegate.m in Sources */,
 				D049E2FE1A3F882600E0CAC1 /* FirstViewController.m in Sources */,
 				D049E2F11A3F882600E0CAC1 /* main.m in Sources */,
+				D0A3F26D1A416F5400FC2F04 /* MapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +490,7 @@
 				D049E31B1A3F882600E0CAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D049E31C1A3F882600E0CAC1 /* Build configuration list for PBXNativeTarget "Gas Station FinderTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +499,7 @@
 				D049E31E1A3F882600E0CAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
